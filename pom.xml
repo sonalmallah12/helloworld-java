@@ -1,31 +1,23 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.dikhan</groupId>
+    <groupId>com.github.sonalmallah12</groupId>
     <artifactId>hello-world-cicd</artifactId>
     <version>1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>hello-world-cicd</name>
     <description>Simple Java Hello Word project to showcase how to do CI/CD with OpenSource projects</description>
-    <url>https://github.com/dikhan/hello-world-cicd</url>
+    <url>https://github.com/sonalmallah12/helloworld-java.git</url>
     <inceptionYear>2016</inceptionYear>
     <organization />
-
-    <licenses>
-        <license>
-            <name>The MIT License</name>
-            <url>https://github.com/dikhan/pagerduty-client/master/LICENSE</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
 
     <developers>
         <developer>
             <name>Daniel I. Khan Ramiro</name>
-            <email>di.khan.r@gmail.com</email>
+            <email>sonalmallah12@gmail.com</email>
             <timezone>GMT</timezone>
-            <url>https://github.com/dikhan</url>
+            <url>https://github.com/sonalmallah12</url>
             <roles>
                 <role>Administrator</role>
             </roles>
@@ -37,9 +29,9 @@
     <modules />
 
     <scm>
-        <connection>scm:git:https://github.com/dikhan/hello-world-cicd.git</connection>
-        <developerConnection>scm:git:https://github.com/dikhan/hello-world-cicd.git</developerConnection>
-        <url>https://github.com/dikhan/hello-world-cicd.git</url>
+        <connection>scm:git:https://github.com/sonalmallah12/helloworld-java.git</connection>
+        <developerConnection>scm:git:https://github.com/sonalmallah12/helloworld-java.git</developerConnection>
+        <url>https://github.com/sonalmallah12/helloworld-java.git</url>
       <tag>HEAD</tag>
   </scm>
 
@@ -86,7 +78,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.5.3</version>
                 <configuration>
-                    <connectionUrl>scm:git:https://github.com/dikhan/hello-world-cicd.git</connectionUrl>
+                    <connectionUrl>scm:git:https://github.com/sonalmallah12/helloworld-java.git</connectionUrl>
                     <stagingRepository>ossrh::default::https://oss.sonatype.org/content/repositories/snapshots</stagingRepository>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <useReleaseProfile>false</useReleaseProfile>
